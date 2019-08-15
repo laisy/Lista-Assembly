@@ -1,0 +1,24 @@
+	JMP start
+int: 	DB 1
+	DB 2
+	DB 3
+	DB 4
+	DB 5
+	DB 6
+	DB 7
+	DB 8
+	DB 9
+	DB 10
+	DB 0	
+
+start:
+	MOV A, int
+	MOV D, [A]	
+.loop:
+	INC A
+	ADD D, [A]
+	MOV C, [A]
+	CMP C, 0
+	JNZ .loop
+
+

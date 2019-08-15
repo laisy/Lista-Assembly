@@ -1,0 +1,10 @@
+
+MOV A, 30	;A=30
+PUSH A		;Guarde o valor de A na pilha
+MOV B, 50	;B=50
+MOV A, B	
+MUL 2		;A(B=3)*2
+MOV B, A	;MOVA A(2B=6) PARA REG B
+SUB B, 10	;2B-10
+POP A		;RETORNE O VALOR DE A DA PILHA
+ADD A, B	;2B-10+A

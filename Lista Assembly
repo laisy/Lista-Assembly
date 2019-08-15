@@ -1,0 +1,19 @@
+Lista de Exercícios sobre assembly
+Resolva as seguintes questões, usando o simulador de assembly visto em sala de aula.
+1. Copie uma contante para um registrador.
+2. Copie uma constante para a posição de memória 100.
+3. Modifique o código da questão anterior para copiar o valor da memória posição 100, para o registrador.
+4. Copie dois inteiros para os registradores A e B e efetue a soma deles.
+5. Modifique o código da questão anterior para copiar o resultado da soma para a memória (qualquer posição).
+6. Escreva um código para o simulador Assembly de 8 bit que determina o valor de y para a seguinte equacão:
+y = 2*B - 10 + A
+onde A e B refere-se ao conteúdo dos registradores A e B, respectivamente.
+7. Defina 3 variáveis, usando label e DB, e copie o valor delas para 3 registradores (não esqueça do JMP).
+8. Modifique o código da questão anterior acrescentando uma variavel resultado. Efetue a soma dos 3 valores em registrador e copie o resultado para a variável declarada (resultado).
+9. Escreva um código usando o simulador Assembly 8 bits que transfere 20 bytes armazenados em memória como uma sequencia de caracteres para uma nova região de memória iniciada no endereço armazenado no registrador A.
+10. Faça um algoritmo que efetue o somatório de 1 até 10, usando a idéia de LOOP.
+11. Escreva um código que, a partir de 5 inteiros armazenados em memória (usando label e DB), 
+(i) carrega todos esses dados na pilha (PUSH);
+(ii) descarrega os dados um a um somando-os;
+(iii) armazena o valor resultante no registrador C.
+

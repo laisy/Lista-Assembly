@@ -1,0 +1,3 @@
+MOV A, 50
+MOV B, 30
+ADD A, B

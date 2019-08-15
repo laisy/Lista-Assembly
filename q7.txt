@@ -1,0 +1,12 @@
+	JMP INICIO
+
+VAR1: DB 1	
+VAR2: DB 10
+VAR3: DB 100
+resultado: DB 0
+
+INICIO:
+	MOV A, [VAR1]  
+	MOV B, [VAR2]
+	MOV C, [VAR3] 	
+	

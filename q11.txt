@@ -1,0 +1,24 @@
+JMP inicio
+int: 	DB 1
+	DB 2
+	DB 3
+	DB 4
+	DB 5
+	DB 0
+inicio:
+	MOV A, int
+loop:
+	MOV D, [A]
+	PUSH D
+	INC A
+	MOV D, [A]
+	CMP D, 0
+	JNZ loop
+
+loop2:
+	POP D
+	ADD C, D
+	CMP SP, 231
+	JNZ loop2
+HLT
+	

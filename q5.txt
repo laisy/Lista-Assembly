@@ -1,0 +1,4 @@
+MOV A, 50
+MOV B, 30
+ADD A, B
+MOV [100], A
